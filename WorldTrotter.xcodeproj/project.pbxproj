@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		762170BA1EB69AA200ADB8B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762170B91EB69AA200ADB8B4 /* AppDelegate.swift */; };
-		762170BC1EB69AA200ADB8B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762170BB1EB69AA200ADB8B4 /* ViewController.swift */; };
 		762170BF1EB69AA200ADB8B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762170BD1EB69AA200ADB8B4 /* Main.storyboard */; };
 		762170C11EB69AA200ADB8B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762170C01EB69AA200ADB8B4 /* Assets.xcassets */; };
 		762170C41EB69AA200ADB8B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 762170C21EB69AA200ADB8B4 /* LaunchScreen.storyboard */; };
 		762170CF1EB69AA200ADB8B4 /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762170CE1EB69AA200ADB8B4 /* WorldTrotterTests.swift */; };
 		762170DA1EB69AA200ADB8B4 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762170D91EB69AA200ADB8B4 /* WorldTrotterUITests.swift */; };
+		762171221EB8A20B00ADB8B4 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762171211EB8A20B00ADB8B4 /* ConversionViewController.swift */; };
+		762171251EBA466400ADB8B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762171241EBA466400ADB8B4 /* MapKit.framework */; };
+		762171271EBA488F00ADB8B4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762171261EBA488F00ADB8B4 /* MapViewController.swift */; };
+		762171291EBACE9800ADB8B4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762171281EBACE9800ADB8B4 /* WebViewController.swift */; };
+		7621712B1EBACEB200ADB8B4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7621712A1EBACEB200ADB8B4 /* WebKit.framework */; };
+		762171311EBC226E00ADB8B4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 762171331EBC226E00ADB8B4 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		762170B61EB69AA200ADB8B4 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		762170B91EB69AA200ADB8B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		762170BB1EB69AA200ADB8B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		762170BE1EB69AA200ADB8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		762170C01EB69AA200ADB8B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		762170C31EB69AA200ADB8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,16 @@
 		762170D51EB69AA200ADB8B4 /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		762170D91EB69AA200ADB8B4 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		762170DB1EB69AA200ADB8B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		762171211EB8A20B00ADB8B4 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversionViewController.swift; path = ../ConversionViewController.swift; sourceTree = "<group>"; };
+		762171241EBA466400ADB8B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		762171261EBA488F00ADB8B4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		762171281EBACE9800ADB8B4 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7621712A1EBACEB200ADB8B4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7621712D1EBC1BAC00ADB8B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		7621712E1EBC1F1100ADB8B4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		762171321EBC226E00ADB8B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		762171341EBC227000ADB8B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		762171351EBC227100ADB8B4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7621712B1EBACEB200ADB8B4 /* WebKit.framework in Frameworks */,
+				762171251EBA466400ADB8B4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,7 @@
 				762170CD1EB69AA200ADB8B4 /* WorldTrotterTests */,
 				762170D81EB69AA200ADB8B4 /* WorldTrotterUITests */,
 				762170B71EB69AA200ADB8B4 /* Products */,
+				762171231EBA466400ADB8B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +114,12 @@
 		762170B81EB69AA200ADB8B4 /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				762171331EBC226E00ADB8B4 /* Localizable.strings */,
+				762171211EB8A20B00ADB8B4 /* ConversionViewController.swift */,
+				762171261EBA488F00ADB8B4 /* MapViewController.swift */,
 				762170B91EB69AA200ADB8B4 /* AppDelegate.swift */,
-				762170BB1EB69AA200ADB8B4 /* ViewController.swift */,
 				762170BD1EB69AA200ADB8B4 /* Main.storyboard */,
+				762171281EBACE9800ADB8B4 /* WebViewController.swift */,
 				762170C01EB69AA200ADB8B4 /* Assets.xcassets */,
 				762170C21EB69AA200ADB8B4 /* LaunchScreen.storyboard */,
 				762170C51EB69AA200ADB8B4 /* Info.plist */,
@@ -123,6 +143,15 @@
 				762170DB1EB69AA200ADB8B4 /* Info.plist */,
 			);
 			path = WorldTrotterUITests;
+			sourceTree = "<group>";
+		};
+		762171231EBA466400ADB8B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7621712A1EBACEB200ADB8B4 /* WebKit.framework */,
+				762171241EBA466400ADB8B4 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +243,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 762170AD1EB69AA200ADB8B4;
 			productRefGroup = 762170B71EB69AA200ADB8B4 /* Products */;
@@ -233,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				762170C41EB69AA200ADB8B4 /* LaunchScreen.storyboard in Resources */,
+				762171311EBC226E00ADB8B4 /* Localizable.strings in Resources */,
 				762170C11EB69AA200ADB8B4 /* Assets.xcassets in Resources */,
 				762170BF1EB69AA200ADB8B4 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				762170BC1EB69AA200ADB8B4 /* ViewController.swift in Sources */,
+				762171221EB8A20B00ADB8B4 /* ConversionViewController.swift in Sources */,
+				762171271EBA488F00ADB8B4 /* MapViewController.swift in Sources */,
 				762170BA1EB69AA200ADB8B4 /* AppDelegate.swift in Sources */,
+				762171291EBACE9800ADB8B4 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +333,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				762170BE1EB69AA200ADB8B4 /* Base */,
+				7621712D1EBC1BAC00ADB8B4 /* en */,
+				7621712E1EBC1F1100ADB8B4 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +347,16 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		762171331EBC226E00ADB8B4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				762171321EBC226E00ADB8B4 /* Base */,
+				762171341EBC227000ADB8B4 /* en */,
+				762171351EBC227100ADB8B4 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -319,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -370,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -507,6 +554,7 @@
 				762170E01EB69AA200ADB8B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		762170E11EB69AA200ADB8B4 /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +563,7 @@
 				762170E31EB69AA200ADB8B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		762170E41EB69AA200ADB8B4 /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +572,7 @@
 				762170E61EB69AA200ADB8B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
